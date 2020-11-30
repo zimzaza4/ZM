@@ -26,7 +26,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
 
         // Create a new Category
         // This Category will use this ItemStack
-        ItemStack categoryItem = new CustomItem(Material.DIAMOND, "&4Addon Category", "", "&a> Click to open");
+        ItemStack categoryItem = new CustomItem(Material.DIAMOND, "&4ZM物品", "", "&a> zim瞎写的");
 
         // Give your Category a unique id.
         NamespacedKey categoryId = new NamespacedKey(this, "addon_category");
@@ -34,7 +34,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
 
         // Create a new Slimefun ItemStack
         // This class has many constructors, it is very important that you give each item a unique id.
-        SlimefunItemStack slimefunItem = new SlimefunItemStack("COOL_DIAMOND", Material.DIAMOND, "&4Cool Diamond", "&c+20% Coolness");
+        SlimefunItemStack slimefunItem = new SlimefunItemStack("COOL_DIAMOND", Material.DIAMOND, "&4炫酷的钻石", "&c+20% 炫酷");
 
         // The Recipe is an ItemStack Array with a length of 9.
         // It represents a Shaped Recipe in a 3x3 crafting grid
