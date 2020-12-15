@@ -1,4 +1,4 @@
-package me.CHANGEME.slimefunaddon;
+package zim.wdnmd.slimefunaddon;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -26,7 +26,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
 
         // Create a new Category
         // This Category will use this ItemStack
-        ItemStack categoryItem = new CustomItem(Material.DIAMOND, "&4ZM物品", "", "&a> zim瞎写的");
+        ItemStack categoryItem = new CustomItem(Material.DIAMOND, "&4ZM物品", "", "&a>");
 
         // Give your Category a unique id.
         NamespacedKey categoryId = new NamespacedKey(this, "addon_category");
